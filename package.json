@@ -1,13 +1,13 @@
 {
   "name": "react-basefire",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A toolkit for simplified Firebase CRUD operations with React hooks.",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/devsany/react-firebase.git"
+    "url": "https://github.com/devsany/react-basefire.git"
   },
   "keywords": [
     "firebase",
@@ -27,8 +27,8 @@
     "webpack-cli": "^6.0.1"
   },
   "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0",
-    "firebase": "^9.0.0"
+    "firebase": "^9.0.0",
+    "react": "^18.0.0"
   },
   "scripts": {
     "build": "webpack",
@@ -42,5 +42,8 @@
   "bugs": {
     "url": "https://github.com/devsany/react-firebase/issues"
   },
-  "homepage": "https://github.com/devsany/react-firebase#readme"
+  "homepage": "https://github.com/devsany/react-firebase#readme",
+  "dependencies": {
+    "react-dom": "^18.0.0"
+  }
 }
