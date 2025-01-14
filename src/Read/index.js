@@ -8,7 +8,8 @@ const read = async (path = "/") => {
     if (snapshot.exists()) {
       console.log("All Data:", snapshot.val());
     } else {
-      console.log("No data available");
+      console.log("No data found");
+
     }
   } catch (error) {
     console.error("Error fetching data: ", error);
