@@ -13,6 +13,7 @@ const read = async (path = "/") => {
     }
   } catch (error) {
     console.error("Error fetching data: ", error);
+    console.error("process error occure")
   }
 };
 export default read;
